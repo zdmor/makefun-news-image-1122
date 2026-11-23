@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World News — Sunday, 22 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    font-family: "DejaVu Sans", "Liberation Sans", Arial, sans-serif;
+    background: #f4f1ea;
+    color: #1a1a1a;
+    padding: 18px 24px 14px 24px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* ---------- header ---------- */
+  header {
+    background: #0f2540;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 16px 28px 14px 28px;
+    flex: 0 0 auto;
+  }
+  .kicker {
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: #f2c94c;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 1.08;
+    margin-top: 5px;
+    letter-spacing: -1px;
+  }
+  .sub {
+    font-size: 18px;
+    color: #c9d6e4;
+    margin-top: 7px;
+  }
+
+  /* ---------- lead story ---------- */
+  .lead {
+    margin-top: 14px;
+    background: #ffffff;
+    border-radius: 10px;
+    border-left: 12px solid #1e7d4f;
+    padding: 14px 24px 13px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    flex: 0 0 auto;
+  }
+  .tag {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+  .tag.green { background: #1e7d4f; }
+  .tag.blue  { background: #2456a6; }
+  .tag.red   { background: #b3261e; }
+  .tag.amber { background: #b26a00; }
+  .tag.teal  { background: #0f766e; }
+  .tag.purple{ background: #6b3fa0; }
+  .lead h2 { font-size: 30px; line-height: 1.15; margin-top: 8px; }
+  .lead p  { font-size: 19px; line-height: 1.42; margin-top: 7px; color: #333333; }
+
+  /* ---------- grid ---------- */
+  .grid {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 14px;
+    flex: 1 1 auto;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 13px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border-top: 8px solid #2456a6;
+  }
+  .card.red    { border-top-color: #b3261e; }
+  .card.amber  { border-top-color: #b26a00; }
+  .card.teal   { border-top-color: #0f766e; }
+  .card.purple { border-top-color: #6b3fa0; }
+  .card h2 { font-size: 24px; line-height: 1.2; margin-top: 8px; }
+  .card p  { font-size: 17px; line-height: 1.4; margin-top: 6px; color: #333333; }
+
+  /* ---------- bottom strip ---------- */
+  .strip {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    flex: 0 0 auto;
+  }
+  .mini {
+    background: #e8e2d4;
+    border-radius: 10px;
+    padding: 12px 20px;
+  }
+  .mini h3 { font-size: 20px; line-height: 1.2; }
+  .mini p  { font-size: 16px; line-height: 1.38; margin-top: 5px; color: #333333; }
+
+  footer {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #666666;
+    text-align: center;
+    flex: 0 0 auto;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="kicker">The World in One Day &mdash; World News</div>
+  <h1>Sunday, 22 November 2026</h1>
+  <div class="sub">Seven stories that defined the day &mdash; each happened or was first reported on 22 November 2026.</div>
+</header>
+
+<section class="lead">
+  <span class="tag green">Climate &middot; Antalya, T&uuml;rkiye</span>
+  <h2>COP31 collapses: no climate deal</h2>
+  <p>After a record 48 hours of overtime, the UN climate summit ended with no agreement at all. The EU and island states rejected a final text that never mentioned fossil fuels &mdash; the chief cause of global warming.</p>
+</section>
+
+<div class="grid">
+  <article class="card">
+    <span class="tag blue">United States</span>
+    <h2>Democrats&rsquo; biggest House win since 1992</h2>
+    <p>A recount in North Carolina gave Democrat Chuck Hubbard a 330-vote win over 11-term Republican Virginia Foxx &mdash; the party&rsquo;s 258th House seat.</p>
+  </article>
+
+  <article class="card red">
+    <span class="tag red">The Gulf</span>
+    <h2>Two supertankers hit mines off Hormuz</h2>
+    <p>Iran&rsquo;s navy said two supertankers struck naval mines and caught fire east of the Strait of Hormuz, as its naval blockade and US escorts continue.</p>
+  </article>
+
+  <article class="card amber">
+    <span class="tag amber">Sudan</span>
+    <h2>Drones kill four near Khartoum, hit UN building</h2>
+    <p>Drone attacks blamed on the Rapid Support Forces killed four people around Sudan&rsquo;s capital and damaged a United Nations building while staff were inside.</p>
+  </article>
+
+  <article class="card teal">
+    <span class="tag teal">Libya</span>
+    <h2>Russian warship sunk by sea drones</h2>
+    <p>A suspected drone strike sank the Russian corvette <i>Merkury</i> at Benghazi port; satellite images showed it capsized, only its bow above water.</p>
+  </article>
+</div>
+
+<div class="strip">
+  <div class="mini">
+    <h3>Indonesia: factory fire kills 3, dozens missing</h3>
+    <p>A blaze at a candy factory in Cikande, western Java, killed at least three workers; rescuers searched the ruins for dozens still missing.</p>
+  </div>
+  <div class="mini">
+    <h3>Europe: cost-of-living protests roll on</h3>
+    <p>Demonstrations over prices and housing entered a third straight day across Europe, from Portugal to France.</p>
+  </div>
+</div>
+
+<footer>Sources: AP, AFP, Reuters, Al Jazeera, CNN &mdash; reports of 22 November 2026 &middot; One day&rsquo;s news, summed up in one image.</footer>
+
+</body>
+</html>
